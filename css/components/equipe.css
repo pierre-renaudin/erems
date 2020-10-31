@@ -1,0 +1,27 @@
+.equipe p{
+	size: 30px;
+    margin: 10px;
+}
+
+
+#cv {
+    width: 70%;
+}
+
+.box-cv {
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 50px;
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.box-color{
+    background: #FFFFFF;
+    padding: 21px;
+    text-align: center;
+    margin: 10px auto;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+}

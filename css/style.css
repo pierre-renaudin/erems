@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300&family=Lora:ital,wght@0,400;0,500;1,500&family=Roboto:ital,wght@0,100;0,300;0,400;1,300&display=swap');
+
+@import url("components/container.css");
+
+@import url("components/portfolio.css");
+
+@import url("components/footer.css");
+
+@import url("components/equipe.css");
+
+@import url("components/header.css");
+
+body{
+	font-family: Lato;
+	font-size: 18px;
+  margin-bottom: 0px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+    font-size: 62px;
+    padding-bottom: 14px;
+    margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 46px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  color: #666;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+p {
+    color: #777;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.2px;
+}
+
+
+
+.btn-success:focus {
+  background-color: #000;
+  border-color: transparent;
+}
+
+

@@ -1,0 +1,70 @@
+.header {
+    background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+      box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.header .navbar .nav-logo {
+  float: left;
+  margin-top: 17px;
+}
+
+.header .navbar .nav-logo img {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.header .navbar .menu {
+  float: right;
+  margin-top: 50px;
+}
+
+.header .navbar .menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header .navbar .menu li {
+  display: inline-block;
+  margin-bottom: 0 25px;
+}
+
+.header .navbar .menu li a {
+    color: #777;
+    font-size: 16px;
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out;
+    padding-right: 22px;
+    padding-left: 22px;
+    font-weight: 100px;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+.header .navbar .menu li a:hover {
+    color: #db6400;
+    background-color: transparent;
+}
+
+
+.header .navbar .menu .active a {
+  color: #db6400;
+}
+
+.navbar:hover,
+.navbar:focus { 
+  background-color: transparent;
+}
+
+
+.navbar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+

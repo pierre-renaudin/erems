@@ -1,0 +1,55 @@
+
+.footer {
+ 
+  box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.5);
+  width: 100%;
+  text-align: center;
+  font: normal 16px sans-serif;
+  padding: 30px;
+  bottom: 0;
+  margin-top: 50px;
+
+}
+
+.left-foot {
+    float: left;
+}
+
+.foot-logo{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.footer a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: black;
+  transition: ease .25s;
+}
+
+.foot-logo a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: black;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition:all .25s;
+}
+
+.foot-logo a:hover{
+    transform:scale(1.1); -webkit-transform:scale(1.1);
+}
+
+.foot-menu a:hover{
+    color: orange;
+}
+
+
+.fixed-bottom {
+    clear: both;
+}
